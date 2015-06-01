@@ -1,0 +1,129 @@
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #083643;
+}
+
+.heading {
+	padding-top: 50px;
+	background-color: #083643;
+	padding-bottom: 50px;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bolder;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	color: white;
+}
+
+h3 {
+	font-size: 1em;
+	margin-top: 0;
+	color: white;
+}
+
+p {
+	font-size: 1em;
+}
+
+.reset-button {
+	text-shadow: none;
+	border: solid 1px black;
+	border-radius: 13px;
+	font-size: 1em;
+	background-color: #083643;
+	padding: 4px 20px;
+	color: white;
+}
+
+.reset-button:hover, .add-button:hover {
+	background-color: #49B4CC;
+	cursor: pointer;
+}
+
+.items {
+	margin-top: 25px;
+	position: relative;
+	height: 50px;
+}
+
+#add-items {
+	border: solid 1px black;
+	background-color: #FAFAFA;
+	width: 20%;
+	height: 40px;
+	margin: 0 auto;
+	padding: 2px;
+	float:left;
+	position: absolute;
+	left: 500px;
+}
+
+#add-items p {
+	margin-top: 10px;
+}
+
+.add-button {
+	text-shadow: none;
+	border: solid 1px black;
+	font-size: 1em;
+	background-color: #083643;
+	padding: 0px 5px;
+	color: white;
+	height: 46px;
+	width: 40px;
+	position: absolute;
+	right: 488px;
+}
+
+.list-items {
+	list-style: none;
+	padding: 0;
+}
+
+.list-items li {
+	margin: 25px auto;
+	height: 33px;
+	width: 500px;
+	padding-top: 15px;
+}
+
+.list-items .to-buy {
+	background-color: #3E9FB5;
+	color: #E8E6E6;
+}
+
+.list-items .bought {
+	background-color: #E8E6E6;
+}
+
+.list-items li div {
+	display: inline-block;
+}
+
+.list-items li div.checkbox, div.checked {
+	float: left;
+	padding-left: 10px;
+}
+
+.list-items li div.remove {
+	float: right;
+	padding-right: 10px;
+}
+
+.list-items li.bought div.name {
+	text-decoration: line-through;
+}
+
+.byebye {
+	background-color: #083643;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h2 {
+	color: #3E9FB5;
+	font-size: 1em;
+}
