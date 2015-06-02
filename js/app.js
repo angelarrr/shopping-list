@@ -5,19 +5,18 @@ $(document).ready(function() {
 			var name = $('#add-items').val();
 			var added = '<li class="to-buy">' + '<div class="checkbox"><i class="fa fa-square-o"></i></div>' + '<div class="name">' + name + '</div>' + '<div class="remove"><i class="fa fa-times"></i></div></li>';
 			$('.list-items').prepend(added);
-			$('#add-items').val();
+			$('#add-items').val("");
 		}
 	});
 
 	/* Add item by pressing add button */
-	$(".add-button").click(function() {
+	$(".add-button").on("click", function() {
 		var name = $('#add-items').val();
 		var added = '<li class="to-buy">' + '<div class="checkbox"><i class="fa fa-square-o"></i></div>' + '<div class="name">' + name + '</div>' + '<div class="remove"><i class="fa fa-times"></i></div></li>';
 		$('.list-items').prepend(added);
-		$('#add-items').val();
+		$('#add-items').val("");
 	});
 });
-
 
 /* Clear all items on list */
 $(document).on("click", ".reset-button", function() {

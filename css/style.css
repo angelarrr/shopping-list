@@ -126,7 +126,7 @@ input[type="text"]:focus {
 	display: inline-block;
 }
 
-.list-items li div.checkbox /* div.checked */ {
+.list-items li div.checkbox {
 	float: left;
 	padding-left: 10px;
 }
