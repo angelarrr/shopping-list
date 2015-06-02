@@ -52,18 +52,42 @@ p {
 	/* border: solid 1px black; */
 }
 
-#add-items {
-	border: solid 1px black;
+
+#add-items input {
+	margin-top: 10px;
+}
+
+::-webkit-input-placeholder {
+	color: #432F21;
+}
+
+:-moz-placeholder {
+	color: #432F21;
+}
+
+::-moz-placeholder {
+	color: #432F21;
+}
+
+:-ms-input-placeholder {
+	color: #432F21;
+}
+
+input[type="text"] {
 	background-color: #DFDED4;
+	box-shadow: none;
+	border: solid 1px black;
 	width: 80%;
 	height: 40px;
 	margin: 0 auto;
 	padding: 2px;
 	float:left;
+	font-size: 1em;
+	text-align: center;
 }
 
-#add-items p {
-	margin-top: 10px;
+input[type="text"]:focus {
+	outline: none;
 }
 
 .add-button {
