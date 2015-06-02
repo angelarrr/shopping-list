@@ -126,7 +126,7 @@ input[type="text"]:focus {
 	display: inline-block;
 }
 
-.list-items li div.checkbox, div.checked {
+.list-items li div.checkbox /* div.checked */ {
 	float: left;
 	padding-left: 10px;
 }
@@ -149,4 +149,8 @@ input[type="text"]:focus {
 h2 {
 	color: #5FA292;
 	font-size: 1em;
+}
+
+.shopping-list {
+	padding-bottom: 10px;
 }

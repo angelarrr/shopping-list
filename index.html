@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<title>Shopping List</title>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<div class="heading">
@@ -15,7 +18,7 @@
 
 	<div class="instructions">
 		<p>Create your shopping list by adding items below!</p>
-		<button class="reset-button">clear list</button>	
+		<button class="reset-button">clear list</button>
 	</div>
 
 	<div class="items">
@@ -28,29 +31,29 @@
 	<div class="shopping-list">
 		<ul class="list-items">
 			<li class="to-buy">
-				<div class="checkbox">&#x25a2;</div>
+				<div class="checkbox"><i class="fa fa-square-o"></i></div>
 				<div class="name">milk</div>
-				<div class="remove">&#10006</div>
+				<div class="remove"><i class="fa fa-times"></i></div>
 			</li>
 			<li class="to-buy">
-				<div class="checkbox">&#x25a2;</div>
+				<div class="checkbox"><i class="fa fa-square-o"></i></div>
 				<div class="name">bread</div>
-				<div class="remove">&#10006</div>
+				<div class="remove"><i class="fa fa-times"></i></div>
 			</li>
-			<lI class="to-buy">
-				<div class="checkbox">&#x25a2;</div>
+			<li class="to-buy">
+				<div class="checkbox"><i class="fa fa-square-o"></i></div>
 				<div class="name">eggs</div>
-				<div class="remove">&#10006</div>
-				</lI>
-			<li class="bought">
-				<div class="checked">&#10003</div>
-				<div class="name">onions</div>
-				<div class="remove">&#10006</div>
+				<div class="remove"><i class="fa fa-times"></i></div>
 			</li>
 			<li class="bought">
-				<div class="checked">&#10003</div>
+				<div class="checkbox"><i class="fa fa-check"></i></div>
+				<div class="name">onions</div>
+				<div class="remove"><i class="fa fa-times"></i></div>
+			</li>
+			<li class="bought">
+				<div class="checkbox"><i class="fa fa-check"></i></div>
 				<div class="name">potatoes</div>
-				<div class="remove">&#10006</div>
+				<div class="remove"><i class="fa fa-times"></i></div>
 			</li>
 		</ul>
 	</div>
