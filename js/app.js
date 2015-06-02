@@ -28,7 +28,7 @@ $(document).on("click", ".remove", function() {
 	$(this).closest('li').fadeOut(500);
 });
 
-/* check off items code */
+/* check off items */
 $(document).on("click", ".checkbox", function(){
     if ( $(this).closest('li').hasClass("to-buy") ) {
         $(this).closest('li').removeClass("to-buy").addClass("bought");
