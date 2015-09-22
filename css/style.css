@@ -2,12 +2,15 @@ body {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #432F21;
+	position: relative;
+	margin: 0;
+	padding-bottom: 3em;
+	min-height: 100%;
 }
 
 .heading {
-	padding-top: 50px;
-	background-color: #D6D3C4;
-	padding-bottom: 50px;
+	padding-top: 4em;
+	padding-bottom: 1.5em;
 }
 
 h1 {
@@ -29,16 +32,16 @@ p {
 
 .reset-button {
 	text-shadow: none;
-	border: solid 1px black;
-	border-radius: 13px;
+	border: solid 1px #FF7955;
 	font-size: 1em;
 	background-color: #FF8B6C;
-	padding: 4px 20px;
+	padding: 13px 20px;
 	color: white;
 }
 
 .reset-button:hover, .add-button:hover {
 	background-color: #5FA292;
+	border: solid 1px #5FA292;
 	cursor: pointer;
 }
 
@@ -48,7 +51,7 @@ p {
 	margin-right: auto;
 	position: relative;
 	height: 50px;
-	width: 300px;
+	width: 35%;
 	/* border: solid 1px black; */
 }
 
@@ -76,12 +79,11 @@ p {
 input[type="text"] {
 	background-color: #DFDED4;
 	box-shadow: none;
-	border: solid 1px black;
-	width: 80%;
+	border: solid 1px #A0A098;
+	width: 68%;
 	height: 40px;
 	margin: 0 auto;
 	padding: 2px;
-	float:left;
 	font-size: 1em;
 	text-align: center;
 }
@@ -92,7 +94,7 @@ input[type="text"]:focus {
 
 .add-button {
 	text-shadow: none;
-	border: solid 1px black;
+	border: solid 1px #FF7955;
 	font-size: 1em;
 	background-color: #FF8B6C;
 	padding: 0px 5px;
@@ -140,17 +142,11 @@ input[type="text"]:focus {
 	text-decoration: line-through;
 }
 
-.byebye {
-	background-color: #D6D3C4;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
 h2 {
 	color: #5FA292;
 	font-size: 1em;
 }
 
 .shopping-list {
-	padding-bottom: 10px;
+	padding-bottom: 1em;
 }
